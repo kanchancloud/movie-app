@@ -1,0 +1,21 @@
+.Header {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    background-color: #2d3360;
+    font-size: 3vw;
+    padding-bottom: 15px;
+    box-shadow: 0px 10px 10px 10px #2d313a;
+    color: white;
+    z-index: 100;
+    /*scroll-behavior: smooth;*/
+}
+
+@media (max-width: 1000px) {
+    .Header {
+        padding-top: 15px;
+        font-size: 6.4vw;
+    }
+}

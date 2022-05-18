@@ -1,0 +1,9 @@
+.trending {
+    margin-top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.pageTitle{
+    margin-top: 0px;
+}
